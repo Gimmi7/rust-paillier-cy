@@ -20,7 +20,7 @@ rand = "0.6"
 
 [features]
 default = ["curv-kzen/rust-gmp-kzen"]
-num-bignit= ["curv-kzen/num-bigint"]
+num-bigint= ["curv-kzen/num-bigint"]
 
 [[bench]]
 name = "arith"
